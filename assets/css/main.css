@@ -154,5 +154,5 @@ body {
 .blythe {
     position: fixed;
     left: 300px;
-    top: 200px;
+    bottom: 0;
 }
