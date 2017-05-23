@@ -1,22 +1,18 @@
 /*cielo*/
 
 body {
-    background-image: url(../img/sky.png);
+    margin: 0;
+    width: 100%;
+    background-image: url(../img/sky.png)
 }
 
 
 /*sol*/
 
-.sol {
-    width: 100px;
-    height: 100px;
-    background: gold;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+#sun {
     position: fixed;
-    top: 70px;
-    left: 70px;
+    top: 10px;
+    left: 50px;
 }
 
 
@@ -35,8 +31,8 @@ body {
 /*casa*/
 
 .casa {
-    width: 300px;
-    height: 180px;
+    width: 350px;
+    height: 250px;
     background: burlywood;
     position: fixed;
     bottom: 70px;
@@ -48,10 +44,10 @@ body {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     height: 0;
-    width: 200px;
+    width: 350px;
     position: fixed;
-    bottom: 250px;
-    right: 300px;
+    bottom: 300px;
+    right: 250px;
 }
 
 .chimenea {
@@ -59,7 +55,7 @@ body {
     height: 60px;
     background: goldenrod;
     position: fixed;
-    bottom: 300px;
+    bottom: 400px;
     right: 350px;
 }
 
@@ -74,25 +70,25 @@ body {
 
 #uno {
     position: fixed;
-    bottom: 360px;
+    bottom: 460px;
     right: 340px;
 }
 
 #dos {
     position: fixed;
-    bottom: 380px;
+    bottom: 480px;
     right: 320px;
 }
 
 #tres {
     position: fixed;
-    bottom: 390px;
+    bottom: 500px;
     right: 300px;
 }
 
 .puerta {
-    width: 75px;
-    height: 120px;
+    width: 90px;
+    height: 160px;
     background: #a070e2;
     position: fixed;
     bottom: 70px;
@@ -101,19 +97,21 @@ body {
 
 .ventana {
     width: 70px;
-    height: 70px;
+    height: 100px;
     background-color: palevioletred;
     position: fixed;
     bottom: 120px;
     right: 350px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 .corazon {
     width: 50px;
     height: 40px;
     position: fixed;
-    bottom: 120px;
-    right: 500px;
+    bottom: 150px;
+    right: 505px;
 }
 
 #corazon:before,
@@ -151,4 +149,10 @@ body {
     -ms-transform-origin: 100% 100%;
     -o-transform-origin: 100% 100%;
     transform-origin: 100% 100%;
+}
+
+.blythe {
+    position: fixed;
+    left: 300px;
+    top: 200px;
 }
